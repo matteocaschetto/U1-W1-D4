@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{ 
+    margin: 0;
+    font-family: poppins;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+
+}
+
+body{
+
+    background-image: url(../img/sfondo.png);
+}
+
+/* HEADER */
+
+header img{
+
+    padding-top: 10px;
+}
+
+header{
+    color: antiquewhite;
+    text-align: center;
+    margin-inline: auto;
+    max-width: 85%;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(28,9,121,1) 27%, rgba(0,212,255,1) 100%);
+}
+ul li a{
+    list-style: none;
+    list-style-type:none;
+    color: aliceblue;
+    text-transform: uppercase;
+    
+}
+
+ul{
+    padding: 10px;
+}
+
+/* MAIN */
+
+main{
+    background-color: aliceblue;
+    border: solid black 2px;
+    margin-inline: auto;
+    max-width: 85%;
+    padding: 5%;
+}
+
+main h1{
+
+    font-style: normal;
+    font-size: 30px;
+}
+
+.cit{
+color: grey;
+font-size: medium;
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+}
+
+.parti{
+
+    color: blueviolet;
+}
+
+.ev{
+    background-color: rgb(179, 177, 177);
+    border-radius: 2px;
+
+}
+
+caption{
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* TABELLE */
+table{
+    padding: 10px;
+    border-bottom: solid blue;
+    height: auto;
+}
+thead{
+    
+
+    font-weight: lighter;
+    background-color: blue;
+    color: aliceblue;
+}
+
+th{
+    font-weight: normal;
+    
+}
+
+
+tbody{
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+.grey{
+
+    background-color: #dfdede;
+    border: solid grey;
+}
+
+iframe{
+    border-radius: 10%;
+    height: auto;
+}
+
+/* FORM */
+
+section{
+
+    background-color:  #dfdede;
+    padding: 10px;
+    height: max-content;
+}
+
+section h2{
+
+    text-align: center;
+    font-weight: normal;
+}
+
+input{
+    width: 200px;
+    border: none;
+}
+
+button{
+    background-color: blue;
+    color: #dfdede;
+    border: none;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+
+aside h2{
+
+    font-weight: normal;
+    text-align: center;
+}
+
+.correlati{
+
+    background-color:  #dfdede;
+    padding: 10px;
+    height: max-content;
+    margin-bottom: 10px;
+}
+
+.correlati1{
+
+    background-color:  #dfdede;
+    padding: 10px;
+    height: max-content;
+    margin-bottom: 10px;
+}
+
+.correlati2{
+
+    background-color:  #dfdede;
+    padding: 10px;
+    height: max-content;
+}
+
+.data{
+
+    text-align: right;
+    font-size: smaller;
+}
+
+/* FOOTER */
+
+footer{
+    color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    margin-inline: auto;
+    max-width: 85%;
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(28,9,121,1) 27%, rgba(0,212,255,1) 100%);
+    font-size: small;
+    
+}
+
+.email{
+
+    color: blueviolet;
+}
